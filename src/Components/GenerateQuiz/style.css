@@ -59,6 +59,7 @@ input[type=checkbox]{
     width:21px;
     height:10px;
     margin-top:10px;
+    cursor: pointer;
 }
 .outer-flex{
     text-align: center;

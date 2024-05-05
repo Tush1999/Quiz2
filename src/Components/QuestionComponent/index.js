@@ -12,19 +12,15 @@ export default class QuestionComponent extends Component {
     switch (this.props.operation) {
       case "+": {
         return (this.ans = operand_1 + operand_2);
-        break;
       }
       case "-": {
         return (this.ans = operand_1 - operand_2);
-        break;
       }
       case "*": {
         return (this.ans = operand_1 * operand_2);
-        break;
       }
       case "/": {
         return (this.ans = operand_1 / operand_2);
-        break;
       }
       default:
         return this.ans;
